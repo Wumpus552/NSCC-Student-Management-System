@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSCC Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Login Screen -->
+    <div id="login-screen">
+        <div class="login-container">
+            <h1>NSCC</h1>
+            <h2>Student Management System</h2>
+            <p>Please sign in to continue.</p>
+
+            <form id="login-form">
+                <label for="role">User Role</label>
+                <select id="role">
+                    <option value="student">Student</option>
+                    <option value="instructor">Instructor</option>
+                    <option value="admin">Administrator</option>
+                </select>
+
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter username">
+
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter password">
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Main Application -->
+    <div id="main-app" class="hidden">
+
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <h2>NSCC</h2>
+            <p id="user-role">Student Portal</p>
+
+            <nav id="navigation">
+                <!-- Navigation links will be added using JavaScript -->
+            </nav>
+
+            <button id="logout-button">Logout</button>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- Top Navigation Bar -->
+            <header class="top-bar">
+                <h2 id="page-title">Dashboard</h2>
+                <p id="welcome-user">Welcome!</p>
+            </header>
+
+            <!-- Page Content -->
+            <section id="page-content">
+
+                <!-- Dashboard content will be added using JavaScript -->
+
+            </section>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
