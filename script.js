@@ -123,7 +123,7 @@ function showDashboard(content) {
 
             <h3>Upcoming Assignments</h3>
             <ul>
-                <li>INFT 2100 - Project Management: Up to date!</li>
+                <li>INFT 2100 - Project Management: Group Assignment 3 - due 2026-11-08 11:59PM</li>
                 <li>PROG 2100 - Programming C++: ICA 04 - due 2026-11-08 11:59PM</li>
                 <li>INET 2005 - Web Application Programming I: Assignment 3 - due 2026-11-06 11:59PM</li>
             </ul>
