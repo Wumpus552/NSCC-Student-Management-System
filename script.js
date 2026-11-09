@@ -272,7 +272,7 @@ function showOtherPage(content, page) {
             <ul>
                 <li>100245 - David Kennedy</li>
                 <li>100246 - Kyle Phinney</li>
-                <li>100247 - Alpha Venmo</li>
+                <li>100247 - Alpha Vhembo</li>
                 <li>100248 - Anthony King</li>
                 <li>100249 - Connor Thimot</li>
             </ul>
